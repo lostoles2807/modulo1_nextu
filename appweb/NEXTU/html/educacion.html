@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scale=no">
+<title>Fundamentos de Html</title>
+</head>
+<body bgcolor="#CCCCFF">
+	<header>
+		<!----Logo en svg y Titulo en H1---->
+		<center><img src="../logos/cagv.svg" width="100" height="100"></center>
+		<h1 align="center">HOJA DE VIDA</h1>
+    </header>
+    <nav>
+		<!----Enlaces---->
+    	<a href="index.html">Inicio</a>
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+    	<article>
+			<!----Titulos H2 y H3---->
+            <h2>Datos Personales</h2>
+            <h3><strong>Nombres:</strong></h3>
+            <h3>CARLOS ALBERTO</h3>
+            <h3><strong>Apellidos:</strong></h3>
+            <h3>GONZALEZ VALENCIA</h3>
+            <h3><strong>Fecha y Lugar de Nacimiento:</strong></h3>
+            <h3>Tulua Valle, 28 de Julio de 1975</h3>
+            <h3><strong></strong></h3>
+            <hr/>
+            <h2>Educacion</h2>
+			<!----tabla 4 columnas 3 filas---->
+            <table width="200" border="1">
+              <tr align="center">
+                <td><strong>Año</strong></td>
+                <td><strong>Institucion</strong></td>
+                <td><strong>Lugar</strong></td>
+                <td><strong>Culmino?</strong></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+			</table>
+			<!----Formulario---->
+			<form name="registro" method="post">
+				<fieldset>
+					<legend>Agregar Estudios</legend>
+					<label>Año</label>
+					<input type="time" id="fecha" width="75">
+					<br/>
+					<label>Institucion</label>
+					<input type="text" id="insti" width="300">
+					<br/>
+					<label>lugar</label>
+					<textarea id="lugar" rows="1" cols="50"></textarea>
+					<br/>
+					<input type="submit" value="Agregar" title="Agregar">
+				</fieldset>
+			
+			</form>
+        </article>
+    </section>
+    <footer>
+		<center>
+        	carlos.gonzalez28907@hotmail.com
+            <br/>
+            Telefono 3112331837
+            <br/>
+            Tulua, Valle del cauca
+        </center>
+    </footer>
+</body>
+</html>
